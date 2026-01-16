@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
-import Effect from './assets/components/count.jsx'
+import Count from './assets/components/count.jsx'
 
 function Done() {
-  return <h1>🎉 Countdown Finished!</h1>
+  return <h1>🎉Countdown Finished!🎉</h1>
 }
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Effect />} />
+      <Route path="/" element={<Count />} />
       <Route path="/done" element={<Done />} />
     </Routes>
   )

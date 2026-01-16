@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function Effect() {
+export default function Count() {
   const [count, setCount] = useState(5);
   const navigate = useNavigate();
 
